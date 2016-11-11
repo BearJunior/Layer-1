@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84E239351DD30A3600A6A10C /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E239341DD30A3600A6A10C /* DrawView.m */; };
+		84E239381DD31D2500A6A10C /* LineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E239371DD31D2500A6A10C /* LineModel.m */; };
+		84EA5A521DD466530038CF5B /* MyQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA5A511DD466530038CF5B /* MyQuartzView.m */; };
 		84EAC7631DCC38CC005D7EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAC7621DCC38CC005D7EC1 /* main.m */; };
 		84EAC7661DCC38CC005D7EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAC7651DCC38CC005D7EC1 /* AppDelegate.m */; };
 		84EAC7691DCC38CC005D7EC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAC7681DCC38CC005D7EC1 /* ViewController.m */; };
@@ -15,6 +18,7 @@
 		84EAC7711DCC38CC005D7EC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EAC76F1DCC38CC005D7EC1 /* LaunchScreen.storyboard */; };
 		84EAC77C1DCC38CC005D7EC1 /* Layer_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAC77B1DCC38CC005D7EC1 /* Layer_1Tests.m */; };
 		84EAC7871DCC38CC005D7EC1 /* Layer_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAC7861DCC38CC005D7EC1 /* Layer_1UITests.m */; };
+		84EAC7951DCC3A24005D7EC1 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84EAC7941DCC3A24005D7EC1 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84E239331DD30A3600A6A10C /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		84E239341DD30A3600A6A10C /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		84E239361DD31D2500A6A10C /* LineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineModel.h; sourceTree = "<group>"; };
+		84E239371DD31D2500A6A10C /* LineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineModel.m; sourceTree = "<group>"; };
+		84EA5A501DD466530038CF5B /* MyQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQuartzView.h; sourceTree = "<group>"; };
+		84EA5A511DD466530038CF5B /* MyQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQuartzView.m; sourceTree = "<group>"; };
 		84EAC75E1DCC38CC005D7EC1 /* Layer-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Layer-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EAC7621DCC38CC005D7EC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84EAC7641DCC38CC005D7EC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,7 @@
 		84EAC7821DCC38CC005D7EC1 /* Layer-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Layer-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EAC7861DCC38CC005D7EC1 /* Layer_1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Layer_1UITests.m; sourceTree = "<group>"; };
 		84EAC7881DCC38CC005D7EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EAC7941DCC3A24005D7EC1 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +112,17 @@
 		84EAC7601DCC38CC005D7EC1 /* Layer-1 */ = {
 			isa = PBXGroup;
 			children = (
+				84EAC7941DCC3A24005D7EC1 /* 1.jpg */,
 				84EAC7641DCC38CC005D7EC1 /* AppDelegate.h */,
 				84EAC7651DCC38CC005D7EC1 /* AppDelegate.m */,
 				84EAC7671DCC38CC005D7EC1 /* ViewController.h */,
 				84EAC7681DCC38CC005D7EC1 /* ViewController.m */,
+				84E239331DD30A3600A6A10C /* DrawView.h */,
+				84E239341DD30A3600A6A10C /* DrawView.m */,
+				84E239361DD31D2500A6A10C /* LineModel.h */,
+				84E239371DD31D2500A6A10C /* LineModel.m */,
+				84EA5A501DD466530038CF5B /* MyQuartzView.h */,
+				84EA5A511DD466530038CF5B /* MyQuartzView.m */,
 				84EAC76A1DCC38CC005D7EC1 /* Main.storyboard */,
 				84EAC76D1DCC38CC005D7EC1 /* Assets.xcassets */,
 				84EAC76F1DCC38CC005D7EC1 /* LaunchScreen.storyboard */,
@@ -244,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EAC7711DCC38CC005D7EC1 /* LaunchScreen.storyboard in Resources */,
+				84EAC7951DCC3A24005D7EC1 /* 1.jpg in Resources */,
 				84EAC76E1DCC38CC005D7EC1 /* Assets.xcassets in Resources */,
 				84EAC76C1DCC38CC005D7EC1 /* Main.storyboard in Resources */,
 			);
@@ -270,9 +289,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84E239381DD31D2500A6A10C /* LineModel.m in Sources */,
 				84EAC7691DCC38CC005D7EC1 /* ViewController.m in Sources */,
 				84EAC7661DCC38CC005D7EC1 /* AppDelegate.m in Sources */,
+				84E239351DD30A3600A6A10C /* DrawView.m in Sources */,
 				84EAC7631DCC38CC005D7EC1 /* main.m in Sources */,
+				84EA5A521DD466530038CF5B /* MyQuartzView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +520,7 @@
 				84EAC78D1DCC38CC005D7EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84EAC78E1DCC38CC005D7EC1 /* Build configuration list for PBXNativeTarget "Layer-1Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +529,7 @@
 				84EAC7901DCC38CC005D7EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84EAC7911DCC38CC005D7EC1 /* Build configuration list for PBXNativeTarget "Layer-1UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +538,7 @@
 				84EAC7931DCC38CC005D7EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		84E239351DD30A3600A6A10C /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E239341DD30A3600A6A10C /* DrawView.m */; };
 		84E239381DD31D2500A6A10C /* LineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E239371DD31D2500A6A10C /* LineModel.m */; };
-		84EA5A521DD466530038CF5B /* MyQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EA5A511DD466530038CF5B /* MyQuartzView.m */; };
 		84EAC7631DCC38CC005D7EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAC7621DCC38CC005D7EC1 /* main.m */; };
 		84EAC7661DCC38CC005D7EC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAC7651DCC38CC005D7EC1 /* AppDelegate.m */; };
 		84EAC7691DCC38CC005D7EC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAC7681DCC38CC005D7EC1 /* ViewController.m */; };
@@ -43,8 +42,6 @@
 		84E239341DD30A3600A6A10C /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		84E239361DD31D2500A6A10C /* LineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineModel.h; sourceTree = "<group>"; };
 		84E239371DD31D2500A6A10C /* LineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineModel.m; sourceTree = "<group>"; };
-		84EA5A501DD466530038CF5B /* MyQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQuartzView.h; sourceTree = "<group>"; };
-		84EA5A511DD466530038CF5B /* MyQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQuartzView.m; sourceTree = "<group>"; };
 		84EAC75E1DCC38CC005D7EC1 /* Layer-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Layer-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EAC7621DCC38CC005D7EC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84EAC7641DCC38CC005D7EC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -121,8 +118,6 @@
 				84E239341DD30A3600A6A10C /* DrawView.m */,
 				84E239361DD31D2500A6A10C /* LineModel.h */,
 				84E239371DD31D2500A6A10C /* LineModel.m */,
-				84EA5A501DD466530038CF5B /* MyQuartzView.h */,
-				84EA5A511DD466530038CF5B /* MyQuartzView.m */,
 				84EAC76A1DCC38CC005D7EC1 /* Main.storyboard */,
 				84EAC76D1DCC38CC005D7EC1 /* Assets.xcassets */,
 				84EAC76F1DCC38CC005D7EC1 /* LaunchScreen.storyboard */,
@@ -294,7 +289,6 @@
 				84EAC7661DCC38CC005D7EC1 /* AppDelegate.m in Sources */,
 				84E239351DD30A3600A6A10C /* DrawView.m in Sources */,
 				84EAC7631DCC38CC005D7EC1 /* main.m in Sources */,
-				84EA5A521DD466530038CF5B /* MyQuartzView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

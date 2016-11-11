@@ -9,14 +9,8 @@
 #import "ViewController.h"
 #import "DrawView.h"
 
-#import "MyQuartzView.h"
 
 @interface ViewController ()
-{
-    CALayer      *_contentLayer;
-    CAShapeLayer *_maskLayer;
-}
-@property (nonatomic, strong) UIView *layerView;
 
 @property (nonatomic,strong) DrawView *drawView;
 
@@ -70,44 +64,6 @@
     
 }
 
-- (void)setImage:(UIImage *)image
-{
-    _contentLayer.contents = (id)image.CGImage;
-}
-
-
-#pragma mark - 懒加载
-- (UIView *)layerView
-{
-    if (!_layerView) {
-        _layerView = [[UIView alloc]initWithFrame:self.view.frame];
-        [self.view addSubview:_layerView];
-    }
-    return _layerView;
-}
-
-
-- (void)setLayer1
-{
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"jpg"];
-    UIImage *image = [UIImage imageWithContentsOfFile:path];
-    self.layerView.layer.contents = (__bridge id)image.CGImage;
-    self.layerView.layer.contentsGravity = kCAGravityCenter;
-    self.layerView.layer.contentsScale = [UIScreen mainScreen].scale;
-    //    self.layerView.layer.contentsRect = CGRectMake(0, 0, 0.5, 0.5);
-}
-
-
-- (void)setLayer2
-{
-    
-}
-
-- (void)addSpriterImage:(UIImage *)image withContentRect:(CGRect)rect toLayer:(CALayer *)layer//set image
-{
-    layer.contents = (__bridge id)image.CGImage;
-    
-}
 
 
 - (void)didReceiveMemoryWarning {

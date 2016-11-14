@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "DrawView.h"
-
+#import "UIImage+Mask/UIImage+Mask.h"
 
 @interface ViewController ()
 
@@ -44,25 +44,25 @@
 {
     self.imageView = [[UIImageView alloc]initWithFrame:self.view.frame];
     [self.view addSubview:self.imageView];
-    NSString *path = [[NSBundle mainBundle]pathForResource:@"1" ofType:@"jpg"];
+    NSString *path = [[NSBundle mainBundle]pathForResource:@"DSC06324" ofType:@"JPG"];
     self.imageView.image = [UIImage imageWithContentsOfFile:path];
 }
 
 - (void)buttonAction:(UIButton *)sender
 {
-    [self setup];
-    //self.imageView.hidden = YES;
-    self.drawView.hidden = YES;
-}
-
-- (void)setup
-{
-
-    CALayer *mask = [CALayer layer];
-    mask.contents = self.imageView.image;
-//    mask.pa
+    UIGraphicsBeginImageContextWithOptions(self.imageView.frame.size, NO, 0);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [self.drawView.layer renderInContext:context];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    UIImage *newImage = [UIImage maskWithImage:image withScale:1];
+    UIImage *newImage = [self.imageView.image maskWithImage:image];
+    self.imageView.image = newImage;
+    
     
 }
+
+
 
 
 

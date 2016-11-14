@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840F4C5F1DD956C500A29760 /* UIImage+Mask in Resources */ = {isa = PBXBuildFile; fileRef = 840F4C5E1DD956C500A29760 /* UIImage+Mask */; };
+		840F4C611DD9582D00A29760 /* DSC06324.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 840F4C601DD9582D00A29760 /* DSC06324.JPG */; };
 		84E239351DD30A3600A6A10C /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E239341DD30A3600A6A10C /* DrawView.m */; };
 		84E239381DD31D2500A6A10C /* LineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E239371DD31D2500A6A10C /* LineModel.m */; };
 		84EAC7631DCC38CC005D7EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAC7621DCC38CC005D7EC1 /* main.m */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840F4C5E1DD956C500A29760 /* UIImage+Mask */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "UIImage+Mask"; sourceTree = "<group>"; };
+		840F4C601DD9582D00A29760 /* DSC06324.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC06324.JPG; sourceTree = "<group>"; };
 		84E239331DD30A3600A6A10C /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		84E239341DD30A3600A6A10C /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		84E239361DD31D2500A6A10C /* LineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineModel.h; sourceTree = "<group>"; };
@@ -109,7 +113,9 @@
 		84EAC7601DCC38CC005D7EC1 /* Layer-1 */ = {
 			isa = PBXGroup;
 			children = (
+				840F4C5E1DD956C500A29760 /* UIImage+Mask */,
 				84EAC7941DCC3A24005D7EC1 /* 1.jpg */,
+				840F4C601DD9582D00A29760 /* DSC06324.JPG */,
 				84EAC7641DCC38CC005D7EC1 /* AppDelegate.h */,
 				84EAC7651DCC38CC005D7EC1 /* AppDelegate.m */,
 				84EAC7671DCC38CC005D7EC1 /* ViewController.h */,
@@ -257,8 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EAC7711DCC38CC005D7EC1 /* LaunchScreen.storyboard in Resources */,
+				840F4C5F1DD956C500A29760 /* UIImage+Mask in Resources */,
 				84EAC7951DCC3A24005D7EC1 /* 1.jpg in Resources */,
 				84EAC76E1DCC38CC005D7EC1 /* Assets.xcassets in Resources */,
+				840F4C611DD9582D00A29760 /* DSC06324.JPG in Resources */,
 				84EAC76C1DCC38CC005D7EC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
